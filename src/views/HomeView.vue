@@ -11,8 +11,6 @@ import ChildComp from "@/components/ChildComp.vue";
 export default Vue.extend({
   name: "HomeView",
 
-  componentName: "Home",
-
   components: {
     ChildComp,
   },

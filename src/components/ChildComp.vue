@@ -3,10 +3,9 @@
 </template>
 <script lang="ts">
 import Vue from "vue";
-export default Vue.extend({
-  name: "ChildComp12",
 
-  componentName: "ChildComp123",
+export default Vue.extend({
+  componentName: "ChildComp",
 
   data() {
     return {};
