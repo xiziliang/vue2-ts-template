@@ -1,19 +1,29 @@
 <template>
-  <div @click="$emit('click', '出发了子组件')">我是子组件</div>
+  <div @click="onHandle">
+    <div>我是子组件</div>
+    <div>{{ value }}</div>
+  </div>
 </template>
 <script lang="ts">
 import Vue from "vue";
+import { VModel } from "@/mixins";
 
 export default Vue.extend({
   componentName: "ChildComp",
 
-  data() {
-    return {};
-  },
+  mixins: [VModel],
+
+  data: () => ({}),
+
   mounted() {
     console.log(this.$options.componentName);
-    console.log(this.$parent);
-    console.log(this.$root);
+  },
+
+  methods: {
+    onHandle() {
+      this.$emit("click", "触发子组件");
+      (this.value as number) += 1;
+    },
   },
 });
 </script>

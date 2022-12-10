@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <ChildComp @click="onClick"></ChildComp>
+    <ChildComp v-model="number" @click="onClick"></ChildComp>
   </div>
 </template>
 
@@ -11,9 +11,12 @@ import ChildComp from "@/components/ChildComp.vue";
 export default Vue.extend({
   name: "HomeView",
 
+  data: () => ({ number: 1 }),
+
   components: {
     ChildComp,
   },
+
   methods: {
     onClick(msg: string) {
       alert("点击子组件" + "-----" + msg);
