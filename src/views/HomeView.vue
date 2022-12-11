@@ -1,6 +1,10 @@
 <template>
   <div class="home">
     <ChildComp v-model="number" @click="onClick"></ChildComp>
+    <div class="btn">按钮</div>
+    <div class="lg:(p-2 m-2 text-red-400) <lg:(p-2 m-2 text-green-400)">
+      文本颜色
+    </div>
   </div>
 </template>
 

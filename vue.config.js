@@ -15,4 +15,9 @@ module.exports = defineConfig({
     },
   },
   transpileDependencies: true,
+  pluginOptions: {
+    windicss: {
+      preflight: false,
+    },
+  },
 });
