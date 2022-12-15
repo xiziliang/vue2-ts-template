@@ -9,11 +9,11 @@
 
 - ⚡️ [Vue 2](https://v2.cn.vuejs.org/), [Vue-cli](https://cli.vuejs.org/zh/), [pnpm](https://pnpm.io/), - 快速构建！
 
-- 🎨 [Sass](hhttps://sass-lang.com/) - 最成熟、最稳定、最强大的专业级CSS扩展语言
+- 🎨 [Sass](https://sass-lang.com/) - 最成熟、最稳定、最强大的专业级CSS扩展语言
 
 - 🎨 [Windicss](https://github.com/unocss/unocss) - 高性能且极具灵活性的即时原子化 CSS 引擎
 
-- 🎨 [Eslint & prettier](https://prettier.io/) - 规范代码
+- 🔥 [Eslint & prettier](https://prettier.io/) - 规范代码
 
 - 🦾 TypeScript, 当然, 更方便维护
 
