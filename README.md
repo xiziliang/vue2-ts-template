@@ -20,7 +20,7 @@
 
 ## UI 框架
 
-- [Vuetify](https://vuetifyjs.com/zh-Hans/) - 一个专业且质量非常高的Vue UI框架
+- [Element-UI](https://element.eleme.cn/#/zh-CN) - 一个国内使用人数非常多的Vue UI框架
 
 
 ## 现在可以试试!
