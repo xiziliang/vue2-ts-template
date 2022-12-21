@@ -31,7 +31,7 @@ export default Vue.extend({
     onClick(msg: string) {
       this.$message({
         type: "success",
-        message: "成功",
+        message: "成功" + this.number,
       });
     },
   },

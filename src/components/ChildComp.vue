@@ -21,8 +21,8 @@ export default Vue.extend({
 
   methods: {
     onHandle() {
+      (this.value as number)++;
       this.$emit("click", "触发子组件");
-      (this.value as number) += 1;
     },
   },
 });
