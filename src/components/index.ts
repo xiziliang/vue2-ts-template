@@ -1,3 +1,3 @@
 import ChildComp from "./ChildComp.vue";
-
-export { ChildComp };
+import TableComp from "./TableComp.vue";
+export { ChildComp, TableComp };

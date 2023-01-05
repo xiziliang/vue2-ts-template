@@ -1,0 +1,9 @@
+// FIX: el-table 使用fixed的时候，滚动条无法点击，通过pointer-events: none 进行穿透；
+.el-table__fixed,
+.el-table__fixed-right {
+
+  pointer-events: none;
+  td {
+  pointer-events: auto;
+  }
+}

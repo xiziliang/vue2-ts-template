@@ -1,12 +1,16 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <TableComp></TableComp>
   </div>
 </template>
 <script lang="ts">
 import Vue from "vue";
+import { TableComp } from "@/components";
 
 export default Vue.extend({
   name: "AboutView",
+  components: {
+    TableComp,
+  },
 });
 </script>
